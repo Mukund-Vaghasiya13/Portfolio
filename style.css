@@ -1,0 +1,138 @@
+/* :root [<html></html>] */
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px; /* Set the base font size */
+  /* 
+  
+    em - is relative to the nearest parent with a specified font size, so it can compound if nested.
+    rem - rem is always relative to the root element's font size, providing more consistent sizing across the entire document.
+  */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: whitesmoke;
+  opacity: 0.9;
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav .left {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  margin-right: 0.5rem;
+}
+
+nav .right {
+  margin-left: 0.5rem;
+}
+
+nav .right a {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+nav .left li a {
+  font-size: 1rem;
+  margin: 0 0.5rem;
+  color: black;
+  text-decoration: none;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 8rem 2rem;
+  gap: 0.5rem;
+}
+
+#about h1 {
+  font-size: 2.75rem;
+}
+
+#about .bio {
+  padding: 0 2rem;
+  max-width: 56.25rem;
+}
+
+#about .bio p {
+  font-size: 1.25rem;
+}
+
+#about #Profileimage {
+  width: 20rem;
+  height: 20rem;
+  overflow: hidden;
+  margin-top: 1rem;
+  margin-bottom: 37px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#about #Profileimage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+#about #Profileimage img:hover {
+  transform: scale(1.1);
+}
+
+#about .bio {
+  font-size: 1rem;
+  max-width: 56rem;
+  padding: 0 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#about .links a {
+  margin: 0 1rem;
+  font-size: 3rem;
+  color: black;
+}
+
+.header nav .title a {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+}
+
+#skills {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#skills .skill-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#skills .skill-logo li {
+  list-style: none;
+  margin: 0 0.5rem;
+}
