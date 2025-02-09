@@ -153,10 +153,11 @@ nav .left li a {
   font-size: 2rem;
 }
 
-.List-Projects {
+#projects .List-Projects {
   display: flex;
   flex-direction: column;
   padding: 3rem;
+  width: 40rem;
 }
 
 .project {
@@ -166,8 +167,24 @@ nav .left li a {
 .ProjectActualList {
   display: flex;
   flex-direction: row;
+  overflow-x: scroll;
+  width: 100%;
 }
 
-.each-Item {
-  width: 250px;
+.ProjectActualList::-webkit-scrollbar {
+  display: none;
+}
+
+.ProjectActualList .each-Item {
+  width: 17rem;
+}
+
+.ProjectActualList .each-Item p {
+  margin: 1rem;
+  text-align: justify;
+}
+
+.ProjectImage {
+  width: fit-content;
+  height: 16.5rem;
 }

@@ -3,17 +3,32 @@ const ProjectsModle = [
     title: "Uikit",
     project: [
       {
-        image: "A",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
         discreption:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aut fuga sit, obcaecati molestias tempore accusamus laboriosam quam similique ea asperiores quod iste nemo? Eum aliquam explicabo deleniti ipsa sed.",
       },
       {
-        image: "B",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
         discreption:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aut fuga sit, obcaecati molestias tempore accusamus laboriosam quam similique ea asperiores quod iste nemo? Eum aliquam explicabo deleniti ipsa sed.",
       },
       {
-        image: "c",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
+        discreption:
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aut fuga sit, obcaecati molestias tempore accusamus laboriosam quam similique ea asperiores quod iste nemo? Eum aliquam explicabo deleniti ipsa sed.",
+      },
+      {
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
+        discreption:
+          "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aut fuga sit, obcaecati molestias tempore accusamus laboriosam quam similique ea asperiores quod iste nemo? Eum aliquam explicabo deleniti ipsa sed.",
+      },
+      {
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
         discreption:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aut fuga sit, obcaecati molestias tempore accusamus laboriosam quam similique ea asperiores quod iste nemo? Eum aliquam explicabo deleniti ipsa sed.",
       },
@@ -23,17 +38,20 @@ const ProjectsModle = [
     title: "SwiftUI",
     project: [
       {
-        image: "A",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
         discreption:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aut fuga sit, obcaecati molestias tempore accusamus laboriosam quam similique ea asperiores quod iste nemo? Eum aliquam explicabo deleniti ipsa sed.",
       },
       {
-        image: "B",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
         discreption:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aut fuga sit, obcaecati molestias tempore accusamus laboriosam quam similique ea asperiores quod iste nemo? Eum aliquam explicabo deleniti ipsa sed.",
       },
       {
-        image: "c",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
         discreption:
           "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta aut fuga sit, obcaecati molestias tempore accusamus laboriosam quam similique ea asperiores quod iste nemo? Eum aliquam explicabo deleniti ipsa sed.",
       },
@@ -60,6 +78,12 @@ ProjectsModle.forEach((e) => {
     let p = document.createElement("p");
     p.innerHTML = e.discreption;
 
+    let img = document.createElement("img");
+    img.src = e.image;
+    img.alt = "image";
+    img.className = "ProjectImage";
+
+    actualProject.appendChild(img);
     actualProject.appendChild(p);
     innerDiv.appendChild(actualProject);
   });
