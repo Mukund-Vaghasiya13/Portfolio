@@ -1,6 +1,6 @@
 /* :root [<html></html>] */
 :root {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans";
   font-size: 17px; /* Set the base font size */
   /* 
   
@@ -201,3 +201,86 @@ nav .left li a {
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
+
+/* ...existing code... */
+
+@media (max-width: 650px) {
+  nav {
+    height: 4rem;
+    width: 100vw;
+  }
+
+  nav .left li a {
+    font-size: 0.8rem;
+  }
+
+  nav .right a {
+    font-size: 1rem;
+  }
+
+  #about {
+    padding: 5rem 1rem;
+  }
+
+  #about h1 {
+    font-size: 1.5rem;
+  }
+
+  #about .bio {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  #about #Profileimage {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  #about .links a {
+    font-size: 2rem;
+    margin: 0.5rem;
+  }
+
+  #skills {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+
+  #skills h1 {
+    font-size: 1.5rem;
+  }
+
+  #skills .skill-logo li {
+    font-size: 2rem;
+    margin: 0.5rem;
+  }
+
+  #projects {
+    padding: 2rem 1rem;
+  }
+
+  #projects h2 {
+    font-size: 1.5rem;
+  }
+
+  #projects .List-Projects {
+    padding: 2rem 1rem;
+    width: 20rem;
+  }
+
+  .ProjectActualList {
+    padding-bottom: 1rem;
+  }
+
+  .each-Item {
+    width: 15rem;
+    margin: 0.5rem;
+  }
+
+  .ProjectImage {
+    width: 12rem;
+    height: 13rem;
+  }
+}
+
+/* ...existing code... */
