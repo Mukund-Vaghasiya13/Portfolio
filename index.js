@@ -47,6 +47,10 @@ ProjectsModle.forEach((e) => {
     actualProject.appendChild(img);
     actualProject.appendChild(p);
     innerDiv.appendChild(actualProject);
+
+    actualProject.addEventListener("click", () => {
+      window.open(e.link);
+    });
   });
 
   childDive.append(innerDiv);
