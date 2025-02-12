@@ -156,11 +156,13 @@ nav .left li a {
   display: flex;
   flex-direction: column;
   padding: 3rem;
-  width: 40rem;
+  width: 45rem;
 }
 
 .project {
   flex-direction: column;
+  height: 30rem;
+  margin: 1.5rem;
 }
 
 .ProjectActualList {
@@ -175,15 +177,27 @@ nav .left li a {
 }
 
 .ProjectActualList .each-Item {
-  width: 17rem;
+  width: 20rem;
+  height: 100%;
+  margin: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 }
 
 .ProjectActualList .each-Item p {
-  margin: 1rem;
+  width: 100%;
   text-align: justify;
 }
 
 .ProjectImage {
-  width: fit-content;
+  width: 15rem;
   height: 16.5rem;
+}
+
+.ProjectActualList .each-Item:hover {
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
