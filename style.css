@@ -22,7 +22,7 @@ nav {
   z-index: 1000;
   display: flex;
   height: 5rem;
-  width: 100vw;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
@@ -245,11 +245,6 @@ nav .left li a {
   #about .links a {
     font-size: 2rem;
     margin: 0.5rem;
-  }
-
-  #skills {
-    height: auto;
-    padding: 2rem 1rem;
   }
 
   #skills h1 {
