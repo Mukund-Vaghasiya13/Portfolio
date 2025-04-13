@@ -1,7 +1,7 @@
 /* :root [<html></html>] */
 :root {
-  font-family: "Comic Neue", serif;
-  font-weight: 500;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
   font-size: 17px; /* Set the base font size */
   /* 
   
@@ -22,7 +22,7 @@ nav {
   z-index: 1000;
   display: flex;
   height: 5rem;
-  width: 100%;
+  width: 100vw;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
@@ -118,7 +118,8 @@ nav .left li a {
 }
 
 #skills {
-  height: 25vh;
+  height: fit-content;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -131,9 +132,12 @@ nav .left li a {
 
 #skills .skill-logo {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  gap: 5px;
+  align-content: center;
   margin-top: 1rem;
+  width: 60%;
 }
 
 #skills .skill-logo li {
@@ -184,6 +188,7 @@ nav .left li a {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  gap: 5px;
   align-items: center;
   padding: 10px;
 }
@@ -195,7 +200,7 @@ nav .left li a {
 
 .ProjectImage {
   width: 15rem;
-  height: 16.5rem;
+  height: 10rem;
 }
 
 .ProjectActualList .each-Item:hover {
@@ -280,7 +285,7 @@ nav .left li a {
 
   .ProjectImage {
     width: 12rem;
-    height: 13rem;
+    height: 10rem;
   }
 }
 
