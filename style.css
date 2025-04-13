@@ -166,7 +166,7 @@ nav .left li a {
 
 .project {
   flex-direction: column;
-  height: 30rem;
+  height: fit-content;
   margin: 1.5rem;
 }
 
