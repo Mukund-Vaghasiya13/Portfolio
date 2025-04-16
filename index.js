@@ -4,14 +4,14 @@ const ProjectsModle = [
     project: [
       {
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
+          "https://res.cloudinary.com/mukund13/image/upload/v1744774657/Portfolio/ylxlwbdefltkpcrfc4hq.png",
         link: "https://github.com/Mukund-Vaghasiya13/UIKit_GitHubApi",
         discreption:
           "<b>UIKit_GitHubApi</b>: is iOS app which is build using UIKit ,it uses GitHub Api to fetch the data of the user and repositories of the user. And This Project is inspired by the <b>Sean Allen's UIKit course.</b>",
       },
       {
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
+          "https://res.cloudinary.com/mukund13/image/upload/v1744774251/Portfolio/resxsgnikgauj6oezybe.png",
         link: "https://github.com/Mukund-Vaghasiya13/ProgrammaticRecipes",
         discreption:
           "<b>ProgrammaticRecipes</b>: is iOS app which is build using UIKit ,it uses the programmatic approach to build the UI of the app. And This Project is inspired by the <b>Sean Allen's UIKit course.</b>",
@@ -22,25 +22,6 @@ const ProjectsModle = [
         link: "https://github.com/Mukund-Vaghasiya13/Newsly",
         discreption:
           "<b>Newsly</b>: is iOS app which is build using UIKit ,it uses the programmatic approach to build the UI of the app. And This Project is build using <b>Newsapi.org</b> Api",
-      },
-    ],
-  },
-  {
-    title: "SwiftUI",
-    project: [
-      {
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
-        link: "https://github.com/Mukund-Vaghasiya13/UIKit_GitHubApi",
-        discreption:
-          "<b>UIKit_GitHubApi</b>: is iOS app which is build using UIKit ,it uses GitHub Api to fetch the data of the user and repositories of the user. And This Project is inspired by the <b>Sean Allen's UIKit course.</b>",
-      },
-      {
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw1KR-fzeYzPxAII54p8RFZ7cxcpepRVVJrg&s",
-        link: "https://github.com/Mukund-Vaghasiya13/ProgrammaticRecipes",
-        discreption:
-          "<b>ProgrammaticRecipes</b>: is iOS app which is build using UIKit ,it uses the programmatic approach to build the UI of the app. And This Project is inspired by the <b>Sean Allen's UIKit course.</b>",
       },
     ],
   },

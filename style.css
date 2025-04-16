@@ -105,15 +105,37 @@ nav .left li a {
   margin-top: 1rem;
 }
 
-#about .links a {
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+}
+
+#contact .bio {
+  font-size: 1rem;
+  max-width: 30rem;
+  padding: 0 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#contact .links {
+  margin: 2rem;
+}
+
+#contact .links a {
   margin: 0 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   color: black;
 }
 
 .header nav .title a {
   font-size: 2rem;
-  color: black;
+  color: rgb(91, 88, 88);
   text-decoration: none;
 }
 
@@ -217,11 +239,11 @@ nav .left li a {
   }
 
   nav .left li a {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   nav .right a {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
   #about {
